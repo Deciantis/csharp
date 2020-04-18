@@ -1,0 +1,4 @@
+/home/deebruce/dev/div_by_7/obj/Debug/netcoreapp3.1/div_by_7.csprojAssemblyReference.cache
+/home/deebruce/dev/div_by_7/obj/Debug/netcoreapp3.1/div_by_7.csproj.CoreCompileInputs.cache
+/home/deebruce/dev/div_by_7/obj/Debug/netcoreapp3.1/div_by_7.AssemblyInfoInputs.cache
+/home/deebruce/dev/div_by_7/obj/Debug/netcoreapp3.1/div_by_7.AssemblyInfo.cs
