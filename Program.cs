@@ -22,18 +22,27 @@ namespace div_by_7
 {
     class Program
     {
-         void Main(String[] args)
+         void Main(char[] args)
         {
             Console.WriteLine("Please enter an integer");
-            doDiv(args[0]);
+            doDiv(args);
         }
 
-        private int doDiv (string n){
-        char[] t;
-        t=n.ToCharArray();
+        private int doDiv (char[] n){
+            //n = 203
+            int l = n.Length;
+            //Get the last character multiply it by 2
+            int t = n[l-1] * 2; //t=6
+            //Delete last element
+            Array.Resize(ref n, n.Length - 1); //[2][0]
+            // convert to int
+            int x = Convert.ToInt32(n.ToString());//20
+            //check for divisibility --- if that's a word
+            x = x-l;//20-6
+            int r = x % 7;
+            //TODO: Create recursive function that checks if number is divisible by 7
 
-        int x=0;        
-        return x;
+            return r;
     }
     }
 
