@@ -25,6 +25,7 @@ namespace div_by_7
          void Main(char[] args)
         {
             Console.WriteLine("Please enter an integer, to check if divisible by 7");
+            string i = Console.ReadLine();
             doDiv(args);
         }
 
