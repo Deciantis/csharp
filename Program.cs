@@ -22,14 +22,14 @@ namespace div_by_7
 {
     class Program
     {
-         void Main(char[] args)
+        static void Main(char[] args)
         {
             Console.WriteLine("Please enter an integer, to check if divisible by 7");
             string i = Console.ReadLine();
             doDiv(args);
         }
 
-        private int doDiv (char[] n){
+       static private int doDiv (char[] n){
             //n = 203
             int l = n.Length;
             //Get the last character multiply it by 2
