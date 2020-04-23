@@ -26,10 +26,10 @@ namespace div_by_7
         {
             Console.WriteLine("Please enter an integer, to check if divisible by 7");
             string i = Console.ReadLine();
-            doDiv(args);
+            doDivBy7(args);
         }
 
-       static private int doDiv (char[] n){
+       static private int doDivBy7 (char[] n){
             //n = 203
             int l = n.Length;
             //Get the last character multiply it by 2
@@ -44,7 +44,11 @@ namespace div_by_7
             //TODO: Create recursive function that checks if number is divisible by 7
 
             return r;
-    }
+      }
+      //doDivBy1
+      //doDivBy2
+      //doDivBy3
+      //doDivBy4
     }
 
 
